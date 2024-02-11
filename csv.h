@@ -50,7 +50,7 @@
 #include <limits>
 #include <memory>
 
-namespace io {
+namespace csv { namespace io {
 ////////////////////////////////////////////////////////////////////////////
 //                                 LineReader                             //
 ////////////////////////////////////////////////////////////////////////////
@@ -1195,5 +1195,5 @@ public:
     return true;
   }
 };
-} // namespace io
+} } // namespace io namespace csv
 #endif
